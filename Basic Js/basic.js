@@ -55,8 +55,24 @@ There are following types of operators in JavaScript:
     6.Special Operators      (?:) , delete in instanceof new typeof void yield etc.
 */
 
-// JavaScript Switch
+//Type Conversion with truthy falsy value
 
+
+var str = 100;
+var n = 10;
+console.log(str * n); // 1000
+console.log(str + n); // 110
+console.log(Number.parseInt(str)); // string to number
+console.log(n.toString); // Number to string
+
+console.log(Boolean(Infinity)); // infinity to boolean
+
+/* Falsy Value: 0, null. undefine, NaN  */
+
+
+
+
+// JavaScript Switch
 
 switch (x) {
     case 10:
@@ -95,9 +111,3 @@ function mul(a, b) {
 hello();
 sum(5, 6);
 console.log(mul(4, 5));
-
-/*
-JavaScript Function Object:
-
-
-*/
